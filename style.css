@@ -59,10 +59,10 @@ nav li a {
     left: 250px;
 }
 
-input{
+input {
     padding: 5px;
     border-radius: 5px;
-    border-style:solid;
+    border-style: solid;
 }
 
 
@@ -77,23 +77,126 @@ input{
     box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.1);
 }
 
-.banner-title{
+.banner-title {
     font-size: 44px;
     color: white;
 }
-.banner-description{
+
+.banner-description {
     color: white;
 }
+
 /* banner section ends */
-.our-popular-tours{
+.our-popular-tours {
     display: flex;
     margin-left: 100px;
     margin-top: 60px;
 }
-.our-popular-tours img{
+
+.our-popular-tours img {
     width: 400px;
     margin-left: 30px;
 }
-.our-popular-tours ul{
+
+.our-popular-tours ul {
     width: 300px;
+}
+
+.destination-title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.destination-description {
+    text-align: center;
+    font-weight: 700px;
+    font-size: 15px;
+}
+
+.destination {
+    margin-top: 60px;
+}
+
+.pics {
+    position: relative;
+    display: grid;
+    margin: auto;
+    justify-content: center;
+}
+.card-container{
+    display: flex;
+    align-items: center;
+gap: 20px;
+}
+
+
+.card-container img {
+    display: flex;
+    width: 50px;
+    
+
+}
+
+.card-1 {
+    background-color: #fbb4633e;
+    padding: 20px;
+    width: 500px;
+    height: 188px;
+    top: 2778px;
+    left: 135px;
+    border-radius: 16px;
+
+}
+
+.card-2 {
+    background-color: #29cdf639;
+    padding: 20px;
+    width: 500px;
+    height: 188px;
+    top: 2778px;
+    left:732px;
+    border-radius: 16px;
+}
+
+.card-3{
+   
+    background-color: #9db1b639;
+    padding: 20px;
+    width: 500px;
+    height: 188px;
+    top: 2778px;
+    left:732px;
+    border-radius: 16px;
+
+
+}
+/* form section start */
+.form-class{
+width: 500px;
+height: 422px;
+top: 5916px;
+left: 135px;
+border: 1px solid rgb(225, 148, 135);
+margin-top: 37px;
+border-radius: 7px;
+padding: 20px;
+
+
+}
+.form-class input{
+    width: 474px;
+    background-color: rgba(127, 124, 121, 0.095);
+    border-style: none;
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+
+}
+.btn-pr{
+    width: 474px;
+    padding: 10px;
+    background: tomato;
+    color: white;
+    border-style: none;
+    border-radius: 7px;
 }
