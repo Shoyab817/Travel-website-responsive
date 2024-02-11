@@ -277,22 +277,22 @@ footer .social-media {
 
     }
 
-    .our-popular-tours {
+    /* .our-popular-tours {
         flex-direction: column;
         align-items: center;
-    }
+    } */
 
     .destination {
         flex-direction: column;
         align-items: center;
 
     }
-    section.our-popular-tours {
+    /* section.our-popular-tours {
         flex-direction: column;
-    }
+    } */
 
-    .pics {
-        Width:335px; 
+    /* .pics {
+        /* Width:335px; 
         Height: 176px;
+    } */ 
     }
-}
