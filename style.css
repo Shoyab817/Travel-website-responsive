@@ -256,11 +256,43 @@ footer p {
     font-weight: 500px;
 }
 
- footer .social-media {
+footer .social-media {
     width: 174.32px;
     height: 24px;
     top: 6687px;
     left: 633px;
     padding: 0px, 0px, 0px, 0px;
 
+}
+
+/* responsive section start */
+@media screen and (min-width:600px) {
+    .banner {
+        flex-direction: column;
+        width: 335px;
+        height: 483px;
+        top: 108px;
+        left: 20px;
+        border-radius: 16px;
+
+    }
+
+    .our-popular-tours {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .destination {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    section.our-popular-tours {
+        flex-direction: column;
+    }
+
+    .pics {
+        Width:335px; 
+        Height: 176px;
+    }
 }
